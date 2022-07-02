@@ -1,0 +1,22 @@
+<!doctype html>
+<html class="no-js" lang="hu_HU">
+  <head>
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fafafa">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    {% seo %}
+  </head>
+  <body>
+    {% include nav.html %}
+    {{ content }}
+  </body>
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', '{{ site.google_analytics }}', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</html>

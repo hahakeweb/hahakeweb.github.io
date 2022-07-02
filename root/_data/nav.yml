@@ -1,0 +1,12 @@
+- name: Főoldal
+  link: /
+- name: A Projektről
+  link: /projekt.html
+- name: Videók
+  link: /video.html
+- name: Interaktív
+  link: /interaktiv.html
+- name: Virtuális szoba
+  link: /virtualis.html
+- name: Kapcsolat
+  link: /kapcsolat.html
