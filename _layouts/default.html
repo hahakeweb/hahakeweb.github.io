@@ -10,9 +10,14 @@
     <link rel="apple-touch-icon" href="icon.png">
     {% seo %}
   </head>
-  <body>
-    {% include nav.html %}
+  <body class="{{ page.page-class }}">
+    <header>
+      {% include nav.html %}
+    </header>
     {{ content }}
+    <footer>
+      {% include footer.html %}
+    </footer>
   </body>
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
