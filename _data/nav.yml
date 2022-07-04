@@ -1,12 +1,12 @@
 - name: Főoldal
   link: /
 - name: A Projektről
-  link: /projekt.html
+  link: /projekt/
 - name: Videók
-  link: /video.html
+  link: /video/
 - name: Interaktív
-  link: /interaktiv.html
+  link: /interaktiv/
 - name: Virtuális szoba
-  link: /virtualis.html
+  link: /virtualis/
 - name: Kapcsolat
-  link: /kapcsolat.html
+  link: /kapcsolat/

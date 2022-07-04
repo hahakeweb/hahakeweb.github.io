@@ -13,12 +13,13 @@ $color-secondary-light: #e4e326;
 
 // Overwrites
 html {
-    background-color: cyan;
+    background-color: #fff;
     color: $color-primary-dark;
     font-family: $font-roboto;
     font-size: 1.33333333em; // 16px
     font-weight: $weight-regular;
     line-height: 1.4;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -43,6 +44,7 @@ header {
         padding: 0.5em 1em;
         margin: 0 0.4em;
         font-weight: $weight-black;
+        letter-spacing: 0.2em;
 
         &.current,
         &:hover,
@@ -136,8 +138,29 @@ h4 {
 
     h1 {
         font-size: 2.8em; //47px
+        margin: 0;
+        letter-spacing: 4px;
     }
     h2 {
         font-size: 1.6em; //27px
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .main {
+        background-color: $color-primary-light;
+        background-image: url('../images/landing-main.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $color-primary-dark;
+        margin-top: -2.2em;
+        padding: 8.5em 20% 0 22%;
+        text-align: center;
+        height: calc(100vw * .57);
+        min-height: 26em;
+
+        p {
+            margin: 32px 0;
+        }
     }
 }
