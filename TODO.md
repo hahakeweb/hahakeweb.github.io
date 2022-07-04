@@ -17,5 +17,5 @@ fonts
         8pt 27px
     Roboto x3
         6pt 18px
-        4.64pt 13.5px
+        4.64pt 13px
         4pt 12px
