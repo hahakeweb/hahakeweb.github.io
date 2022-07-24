@@ -3,22 +3,64 @@ layout: default
 title: A Fenntartható jövőért
 page-class: landing
 ---
+
+
+
 <section class="main">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <h1>{{ page.title }}</h1>
+                <h2>Egy élhető mintaprojekt</h2>
 
-    <h1>{{ page.title }}</h1>
-    <h2>Egy élhető mintaprojekt</h2>
-
-    <p class="lead">Lorem lipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin, lacus quis pulvinar porta, tortor eros lacinia velit, id rhoncus dui metus non erat. Duis consectetur felis non ultrices semper. Ut tincidunt tincidunt sem, vitae fermentum dui dictum sed. Vivamus dapibus elementum dui luctus posuere. Donec vel dui gravida, porttitor elit in, imperdiet ex. Mauris magna ante, maximus vel nisl non, lobortis aliquam justo.</p>
-    {% include button.html link="projekt.html" text="Tovább" class="light" %}
-
+                <p class="lead">Lorem1 lipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin, lacus quis pulvinar
+                    porta, tortor eros lacinia velit, id rhoncus dui metus non erat. Duis consectetur felis non ultrices semper. Ut
+                    tincidunt tincidunt sem, vitae fermentum dui dictum sed. Vivamus dapibus elementum dui luctus posuere. Donec vel
+                    dui gravida, porttitor elit in, imperdiet ex. Mauris magna ante, maximus vel nisl non, lobortis aliquam justo.
+                </p>
+                {% include button.html link="projekt.html" text="Tovább" class="light" %}
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="videok">
+<section class="videok-interaktiv">
+    <div class="videok mb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="row xjustify-content-center">
+                        <h2>Videók</h2>
+                        <div class="col-5">
+                            <p class="mt-0 mb-5">Lorem2 lipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin, lacus quis pulvinar porta, tortor
+                                eros lacinia velit, id rhoncus dui metus non erat. Duis consectetur felis non ultrices semper. Ut tincidunt
+                                tincidunt sem, vitae fermentum dui dictum sed. Vivamus dapibus elementum dui luctus posuere.
+                            </p>
+                            {% include button.html link="videok.html" text="Még több videó" class="dark mb-5" %}
+                        </div>
+                        <div class="col-7">
+                            <iframe src="https://drive.google.com/file/d/1zLF9lc96JGLx569m6e_2Sk53Jw0nJ_aD/preview" width="630" height="354" allow="autoplay" style="border:none;"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <h2>Videók</h2>
+    <div class="arrow-down"></div><div class="arrow-down"></div>
 
-    <p>Lorem lipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin, lacus quis pulvinar porta, tortor eros lacinia velit, id rhoncus dui metus non erat. Duis consectetur felis non ultrices semper. Ut tincidunt tincidunt sem, vitae fermentum dui dictum sed. Vivamus dapibus elementum dui luctus posuere.</p>
-
-    {% include button.html link="videok.html" text="Még több videó" class="dark" %}
-
+    <div class="interaktiv mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <h2>Interaktív energerika adatok</h2>
+                    <p class="mt-0 mb-5">Lorem3 lipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin, lacus quis pulvinar porta, tortor
+                        eros lacinia velit, id rhoncus dui metus non erat. Duis consectetur felis non ultrices semper. Ut tincidunt
+                        tincidunt sem, vitae fermentum dui dictum sed. Vivamus dapibus elementum dui luctus posuere.
+                    </p>
+                    {% include button.html link="interaktiv.html" text="Tovább" class="dark mb-5" %}
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

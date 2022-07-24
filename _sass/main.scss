@@ -80,15 +80,15 @@ h4 {
 // components
 .button {
     background-color: $color-secondary-light;
-    color: $color-primary-darker;
+    color: $color-primary-dark;
     display: inline-block;
     font-size: .9em;
     font-weight: $weight-black;
     padding: 0.25em 1.9em 0.25em;
 
     &.button-dark {
-        background-color: $color-primary-dark;
-        color: $color-secondary-light;
+        background-color: $color-primary-light;
+        color: $color-primary-dark;
     }
 
     .arrow {
@@ -102,13 +102,13 @@ h4 {
         margin: 0 -14px -2px 16px;
 
         .button-dark & {
-            border-top-color: $color-secondary-light;
-            border-right-color: $color-secondary-light;
+            border-top-color: $color-primary-dark;
+            border-right-color: $color-primary-dark;
         }
     }
     &.button-dark .arrow {
-        border-top-color: $color-secondary-light;
-        border-right-color: $color-secondary-light;
+        border-top-color: $color-primary-dark;
+        border-right-color: $color-primary-dark;
     }
 
     .arrow-second {
@@ -132,19 +132,22 @@ h4 {
 }
 
 
+.arrow-down {
+    border-right: 11px solid $color-primary-light;
+    border-top: 11px solid $color-primary-light;
+    content: "";
+    display: block;
+    height: 24px;
+    margin: 8px auto 0;
+    transform: rotate(135deg);
+    width: 24px;
+}
 
 // Custom page styles
 .landing {
 
-    h1 {
-        font-size: 2.8em; //47px
-        margin: 0;
-        letter-spacing: 4px;
-    }
     h2 {
         font-size: 1.6em; //27px
-        margin-top: 0;
-        margin-bottom: 50px;
     }
 
     .main {
@@ -159,8 +162,55 @@ h4 {
         height: calc(100vw * .57);
         min-height: 26em;
 
+        h1 {
+            font-size: 2.8em; //47px
+            margin: 0;
+            letter-spacing: 4px;
+        }
+        h2 {
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 50px;
+        }
+
         p {
             margin: 32px 0;
+        }
+    }
+
+    .videok-interaktiv {
+        // background-color: $color-secondary-light;
+        background-image: url('../images/bg-geo-tr.png'), url('../images/bg-geo-bl.png');
+        background-position: top right, bottom left;
+        background-repeat: no-repeat;
+        background-size: contain, contain;
+
+        .videok {
+            background-image: linear-gradient($color-secondary-light, $color-secondary-light);
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-size: calc(50% + 60px) 100%;
+        }
+
+        .interaktiv {
+            background-image: linear-gradient($color-secondary-light, $color-secondary-light);
+            box-shadow: -11px 11px 46px 0px rgba(0, 0, 0, 0.35);
+            width: calc(50% + 16px);
+            margin-left: auto;
+        }
+
+        h2 {
+            color: $color-primary-dark;
+            font-size: 2.4em; //40px;
+            margin-top: 87px;
+        }
+
+        p {
+            font-size: 1em; //16px;
+        }
+
+        iframe {
+            box-shadow: -11px 11px 46px 0px rgba(0, 0, 0, 0.35);
         }
     }
 }
