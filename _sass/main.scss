@@ -141,6 +141,10 @@ h4 {
     margin: 8px auto 0;
     transform: rotate(135deg);
     width: 24px;
+
+    &.arrow-down-secondary {
+        border-color: $color-secondary-light;
+    }
 }
 
 // Custom page styles
@@ -179,11 +183,10 @@ h4 {
     }
 
     .videok-interaktiv {
-        // background-color: $color-secondary-light;
         background-image: url('../images/bg-geo-tr.png'), url('../images/bg-geo-bl.png');
         background-position: top right, bottom left;
         background-repeat: no-repeat;
-        background-size: contain, contain;
+        background-size: auto;
 
         .videok {
             background-image: linear-gradient($color-secondary-light, $color-secondary-light);
@@ -195,7 +198,7 @@ h4 {
         .interaktiv {
             background-image: linear-gradient($color-secondary-light, $color-secondary-light);
             box-shadow: -11px 11px 46px 0px rgba(0, 0, 0, 0.35);
-            width: calc(50% + 16px);
+            width: calc(50% + 30px);
             margin-left: auto;
         }
 
@@ -213,4 +216,24 @@ h4 {
             box-shadow: -11px 11px 46px 0px rgba(0, 0, 0, 0.35);
         }
     }
+
+    .kakukk {
+        background-color: #ca7f54;
+        background-image: url(../images/bg-marek-fold.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        max-height: 688px;
+        min-height: 500px;
+
+        h2 {
+            font-size: 4em;
+
+        }
+    }
+}
+
+footer {
+    background-color: $color-primary-light;
 }
