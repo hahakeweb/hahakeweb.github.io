@@ -1,0 +1,88 @@
+// Landing page styles
+.landing {
+
+    h2 {
+        font-size: 1.6em; //27px
+    }
+
+    .main {
+        background-color: $color-primary-light;
+        background-image: url('../images/landing-main.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $color-primary-dark;
+        margin-top: -2.2em;
+        padding: 8.5em 20% 0 22%;
+        text-align: center;
+        height: calc(100vw * .57);
+        min-height: 26em;
+
+        h1 {
+            font-size: 2.8em; //47px
+            margin: 0;
+            letter-spacing: 4px;
+        }
+        h2 {
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 50px;
+        }
+
+        p {
+            margin: 32px 0;
+        }
+    }
+
+    .videok-interaktiv {
+        background-image: url('../images/bg-geo-tr.png'), url('../images/bg-geo-bl.png');
+        background-position: top right, bottom left;
+        background-repeat: no-repeat;
+        background-size: auto;
+
+        .videok {
+            background-image: linear-gradient($color-secondary-light, $color-secondary-light);
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-size: calc(50% + 60px) 100%;
+        }
+
+        .interaktiv {
+            background-image: linear-gradient($color-secondary-light, $color-secondary-light);
+            box-shadow: -11px 11px 46px 0px rgba(0, 0, 0, 0.35);
+            width: calc(50% + 30px);
+            margin-left: auto;
+        }
+
+        h2 {
+            color: $color-primary-dark;
+            font-size: 2.4em; //40px;
+            margin-top: 87px;
+        }
+
+        p {
+            font-size: 1em; //16px;
+        }
+
+        iframe {
+            box-shadow: -11px 11px 46px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
+
+    .kakukk {
+        background-color: #ca7f54;
+        background-image: url(../images/bg-marek-fold.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        max-height: 688px;
+        min-height: 500px;
+
+        h2 {
+            font-size: 4em;
+
+        }
+    }
+}
+
+

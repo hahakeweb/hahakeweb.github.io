@@ -1,0 +1,69 @@
+// components
+.button {
+    background-color: $color-secondary-light;
+    color: $color-primary-dark;
+    display: inline-block;
+    font-size: .9em;
+    font-weight: $weight-black;
+    padding: 0.25em 1.9em 0.25em;
+
+    &.button-dark {
+        background-color: $color-primary-light;
+        color: $color-primary-dark;
+    }
+
+    .arrow {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-top: 6px solid $color-primary-dark;
+        border-right: 6px solid $color-primary-dark;
+        transform: rotate(45deg);
+        margin: 0 -14px -2px 16px;
+
+        .button-dark & {
+            border-top-color: $color-primary-dark;
+            border-right-color: $color-primary-dark;
+        }
+    }
+    &.button-dark .arrow {
+        border-top-color: $color-primary-dark;
+        border-right-color: $color-primary-dark;
+    }
+
+    .arrow-second {
+        display: none;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+
+        .arrow {
+            border-top-width: 3px;
+            border-right-width: 3px;
+            margin: 0 -20px 0 16px;
+        }
+
+        .arrow-second {
+            display: inline-block;
+        }
+    }
+}
+
+
+.arrow-down {
+    border-right: 11px solid $color-primary-light;
+    border-top: 11px solid $color-primary-light;
+    content: "";
+    display: block;
+    height: 24px;
+    margin: 8px auto 0;
+    transform: rotate(135deg);
+    width: 24px;
+
+    &.arrow-down-secondary {
+        border-color: $color-secondary-light;
+    }
+}

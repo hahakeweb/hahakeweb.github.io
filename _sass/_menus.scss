@@ -1,0 +1,32 @@
+// Main menu
+header {
+    text-align: right;
+
+    nav {
+        padding-top: 0.8em;
+        width: auto;
+        margin-right: 1.5em;
+    }
+
+    nav a {
+        color: #fff;
+        font-family: $font-roboto;
+        font-size: 0.75em; // 12px
+        padding: 0.5em 1em;
+        margin: 0 0.4em;
+        font-weight: $weight-black;
+        letter-spacing: 0.2em;
+
+        &.current,
+        &:hover,
+        &:focus,
+        &:active {
+            color: $color-secondary-light;
+        }
+    }
+}
+
+// Footer
+footer {
+    background-color: $color-primary-light;
+}
