@@ -1,7 +1,23 @@
-<nav>
-    {% for item in site.data.nav %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-            {{ item.name }}
-        </a>
-    {% endfor %}
-</nav>
+<div class="container">
+    <div class="row d-flex align-items-center">
+        <nav class="col-4">
+            {% for item in site.data.nav %}
+            <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+                {{ item.name }}
+            </a>
+            {% endfor %}
+        </nav>
+        <div class="footer-logo col-4">
+            <img src="/assets/images/logo_small.png" alt="logo">
+        </div>
+        <div class="contact col-4">
+            <p>
+                <span>KAPCSOLAT</span><br />
+                Cím: 8888 Lorem6 Ipsum<br />
+                Tel.: +36 00 000 0000<br />
+                E-mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </p>
+        </div>
+
+    </div>
+</div>

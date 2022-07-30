@@ -9,13 +9,21 @@ header {
     }
 
     nav a {
-        color: #fff;
         font-family: $font-roboto;
         font-size: 0.75em; // 12px
         padding: 0.5em 1em;
         margin: 0 0.4em;
         font-weight: $weight-black;
         letter-spacing: 0.2em;
+        text-transform: uppercase;
+
+        &:link,
+        &:visited,
+        &.current:hover,
+        &.current:focus,
+        &.current:active{
+            color: #fff;
+        }
 
         &.current,
         &:hover,
@@ -29,4 +37,34 @@ header {
 // Footer
 footer {
     background-color: $color-primary-light;
+    font-size: 0.75em; // 12px
+    line-height: 1.75;
+    text-transform: uppercase;
+
+    a { // all footer links
+        &:link,
+        &:visited,
+        &.current:hover,
+        &.current:focus,
+        &.current:active {
+            color: $color-primary-dark;
+        }
+
+        &.current,
+        &:hover,
+        &:focus,
+        &:active {
+            color: #fff;
+        }
+    }
+
+    nav a{
+        display: list-item;
+        list-style-type: none;
+    }
+
+    .contact a {
+        text-transform: none;
+    }
+
 }

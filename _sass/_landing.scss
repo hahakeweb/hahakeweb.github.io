@@ -27,10 +27,6 @@
             margin-top: 0;
             margin-bottom: 50px;
         }
-
-        p {
-            margin: 32px 0;
-        }
     }
 
     .videok-interaktiv {
@@ -50,7 +46,6 @@
             background-image: linear-gradient($color-secondary-light, $color-secondary-light);
             box-shadow: -11px 11px 46px 0px rgba(0, 0, 0, 0.35);
             width: calc(50% + 30px);
-            margin-left: auto;
         }
 
         h2 {
@@ -80,7 +75,51 @@
 
         h2 {
             font-size: 4em;
+        }
+    }
 
+    .technologiak {
+        text-align: center;
+
+        h2, h3 {
+            color: $color-primary-dark;
+            font-size: 2.2em; //36px;
+        }
+
+        h3 {
+            font-size: 1em; //16px;
+            text-transform: uppercase;
+            color: $color-primary-dark;
+        }
+
+        .elozetesek p {
+            text-align: left;
+
+            a {
+                font-variant: small-caps;
+                float: right;
+
+                &:link,
+                &:visited {
+                    color: $color-primary-light;
+                }
+
+                &:hover,
+                &:focus,
+                &:active {
+                    color: $color-primary-dark;
+                }
+            }
+        }
+    }
+
+    .nezz-korul {
+        h2 {
+            color: $color-primary-dark;
+            font-size: 2.4em; //40px;
+        }
+        .col {
+            background-color: $color-secondary-light;
         }
     }
 }
