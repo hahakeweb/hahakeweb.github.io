@@ -3,7 +3,7 @@
         <div class="row d-flex align-items-center">
             <nav class="col-4">
                 {% for item in site.data.nav %}
-                <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+                <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %} target="_self">
                     {{ item.name }}
                 </a>
                 {% endfor %}
@@ -17,7 +17,7 @@
                 <div class="row justify-content-md-center">
                     <p class="col-auto">
                         Akadálymentes weboldal
-                        <a href="https://achecker.achecks.ca/checker/index.php?uri=referer&gid=WCAG2-AA"><img src="https://achecker.achecks.ca/images/icon_W2_aa.jpg" alt="WCAG 2.0 (Level AA)" height="32" width="102" /></a>
+                        <a href="https://achecker.achecks.ca/checker/index.php?uri=referer&gid=WCAG2-AA" target="_self"><img src="https://achecker.achecks.ca/images/icon_W2_aa.jpg" alt="WCAG 2.0 (Level AA)" height="32" width="102" target="_self" /></a>
                     </p>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                     <span>KAPCSOLAT</span><br />
                     Cím: 8888 Lorem6 Ipsum<br />
                     Tel.: +36 00 000 0000<br />
-                    E-mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                    E-mail: <a href="mailto:{{ site.email }}" target="_self">{{ site.email }}</a>
                 </p>
             </div>
 
