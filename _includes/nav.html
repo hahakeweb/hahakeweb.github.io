@@ -1,7 +1,7 @@
 <nav>
     {% for item in site.data.nav %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-            {{ item.name }}
-        </a>
+        {% if page.url == item.link %}<a href="#main" class="current" title="ugrás a tartalomhoz">{{ item.name }}</a>
+        {% else %}<a href="{{ item.link }}">{{ item.name }}</a>
+        {% endif %}
     {% endfor %}
 </nav>

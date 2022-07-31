@@ -16,6 +16,10 @@ aloldal-interaktiv
 aloldal-virtualis
 aloldal-kapcsolat
 responsive
+akadálymentes logó, validálás
+favicon, apple touch icon
+
+
 scrollra usszanak a boxok
 
 
