@@ -77,6 +77,26 @@
         }
     }
 
+    .technologiak-nezzkorul {
+        position: relative;
+    }
+
+    .technologiak-nezzkorul::after {
+        background-image: url(../images/bg-geo-tr.png), url(../images/bg-geo-bl.png);
+        background-position: 126% 0, 0 111%;
+        background-repeat: no-repeat;
+        background-size: auto;
+        content: '';
+        display: block;
+        height: 100%;
+        opacity: .3;
+        position: absolute;
+        top: 0;
+        transform: rotate(180deg);
+        width: 100%;
+        z-index: -1;
+    }
+
     .technologiak {
         text-align: center;
 
@@ -122,5 +142,3 @@
         }
     }
 }
-
-

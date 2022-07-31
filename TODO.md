@@ -9,6 +9,14 @@ jekyll-seo-tag
 site.webmanifest file
     https://web.dev/add-manifest/
 
+fooldal
+aloldal-project
+aloldal-videok
+aloldal-interaktiv
+aloldal-virtualis
+aloldal-kapcsolat
+responsive
+scrollra usszanak a boxok
 
 
 fonts
