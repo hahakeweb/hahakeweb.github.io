@@ -29,6 +29,7 @@
     }
 
     .videok-interaktiv {
+        background-color: #fff;
         background-image: url('../images/bg-geo-tr.png'), url('../images/bg-geo-bl.png');
         background-position: top right, bottom left;
         background-repeat: no-repeat;
@@ -78,9 +79,12 @@
 
     .technologiak-nezzkorul {
         position: relative;
+        background-color: #fff;
+        z-index: -1;
     }
 
     .technologiak-nezzkorul::after {
+        background-color: #fff;
         background-image: url(../images/bg-geo-tr.png), url(../images/bg-geo-bl.png);
         background-position: 126% 0, 0 111%;
         background-repeat: no-repeat;
