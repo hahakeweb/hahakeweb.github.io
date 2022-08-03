@@ -6,12 +6,11 @@
     }
 
     .main {
-        background-color: $color-primary-light;
+        background-color: $color-primary-dark;
         background-image: url('../images/landing-main.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         color: $color-primary-dark;
-        margin-top: -2.2em;
         padding: 8.5em 20% 0 22%;
         text-align: center;
         height: calc(100vw * .57);
