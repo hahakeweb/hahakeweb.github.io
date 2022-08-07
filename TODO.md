@@ -18,7 +18,7 @@ aloldal-kapcsolat
 responsive
 akadálymentes logó, validálás
 favicon, apple touch icon
-
+vedeos in modal
 
 scrollra usszanak a boxok
 

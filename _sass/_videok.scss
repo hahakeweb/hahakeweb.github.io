@@ -1,11 +1,10 @@
 // Videok page styles
-.videok {
+.videok-page {
 
     h2 {
         color: $color-primary-dark;
         font-size: 2.7em;
         letter-spacing: 5px;
-        text-align: center;
     }
 
     .main {
@@ -16,9 +15,70 @@
         background-size: cover;
         color: $color-primary-dark;
 
-        .row {
+        .main-title {
             clear: both;
             height: 53vw;
+        }
+    }
+
+    .videok-wrapper {
+        background-color: #fff;
+        background-image: url('../images/bg-geo-tr.png'), url('../images/bg-geo-bl.png');
+        background-position: top right, bottom left;
+        background-repeat: no-repeat;
+        background-size: auto;
+
+        .videok {
+            background-image: linear-gradient($color-secondary-light, $color-secondary-light);
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-size: calc(50% + 60px) 100%;
+        }
+
+        .video-lista h4 {
+            color: $color-primary-dark;
+            font-size: 1em;
+
+        }
+
+        .video-lista a {
+            position: relative;
+
+            &:hover::before,
+            &:focus::before,
+            &:active::before {
+                background-size: 60px;
+            }
+        }
+
+        .video-lista a::before {
+            content: '';
+            background-image: url(/assets/images/video-play.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 50px;
+            display: block;
+            height: 174px;
+            width: 100%;
+            position: absolute;
+
+
+        }
+
+
+        // h2 {
+        //     color: $color-primary-dark;
+        //     font-size: 2.2em;
+        //     margin-top: 87px;
+        // }
+
+        p {
+            font-size: 1em; //16px;
+        }
+
+        iframe {
+            box-shadow: -11px 11px 46px 0px rgba(0, 0, 0, 0.35);
+            background-color: #000;
         }
     }
 }
