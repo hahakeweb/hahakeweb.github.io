@@ -9,16 +9,14 @@ jekyll-seo-tag
 site.webmanifest file
     https://web.dev/add-manifest/
 
-fooldal
-aloldal-project
-aloldal-videok
 aloldal-interaktiv
 aloldal-virtualis
 aloldal-kapcsolat
 responsive
-akadálymentes logó, validálás
+akadálymentes +html validálás
 favicon, apple touch icon
 vedeos in modal
+projekt/megvalosulasi folyamat kimaradt direkt
 
 scrollra usszanak a boxok
 
