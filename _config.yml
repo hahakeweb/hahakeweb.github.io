@@ -4,7 +4,7 @@ plugins:
 locale: "hu_HU"
 title: "Fenntartható Heves" # the name of your site, e.g. ACME Corp.
 tagline: "Egy élhető mintaprojekt"
-email: fenntarthato.heves@gmail.com
+email: heveskastely@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  Fenntartható Heves - Egy élhető mintaprojekt
 author: Fenntartható Heves
