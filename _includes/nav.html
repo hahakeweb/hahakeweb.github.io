@@ -1,7 +1,9 @@
-<nav>
+<header>
+    <nav>
     {% for item in site.data.nav %}
         {% if page.url == item.link %}<a href="#content" class="current" title="ugrás a tartalomhoz" target="_self">{{ item.name }}</a>
         {% else %}<a href="{{ item.link }}" target="_self">{{ item.name }}</a>
         {% endif %}
     {% endfor %}
-</nav>
+    </nav>
+</header>

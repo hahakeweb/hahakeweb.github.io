@@ -11,7 +11,7 @@
 
         .main-title {
             clear: both;
-            height: 53vw;
+            min-height: 53vw;
         }
     }
 
@@ -19,7 +19,7 @@
         color: #fff;
         font-size: 3em;
         letter-spacing: 5px;
-        margin: 9em 0 0 1em;
+        margin: 0 0 0 1em;
         line-height: 1.15;
     }
 }
