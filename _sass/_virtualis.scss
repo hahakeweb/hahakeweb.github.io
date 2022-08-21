@@ -1,0 +1,25 @@
+// Virtualis page styles
+.virtualis-page {
+
+    .main {
+        background-color: #442;
+        background-image: url('/assets/images/virtualis-main.jpg');
+        background-position:top right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+
+        .main-title {
+            clear: both;
+            height: 53vw;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 3em;
+        letter-spacing: 5px;
+        margin: 9em 0 0 1em;
+        line-height: 1.15;
+    }
+}
