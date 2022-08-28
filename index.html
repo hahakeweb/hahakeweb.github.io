@@ -41,6 +41,8 @@ page-class: landing
         </div>
     </div>
 
+    {% if site.interaktiv %}
+
     <div class="arrow-down"></div><div class="arrow-down"></div>
 
     <div class="container interaktiv mt-5 me-0 ms-auto col-6">
@@ -54,6 +56,7 @@ page-class: landing
             </div>
         </div>
     </div>
+    {% endif %}
 </section>
 
 <section class="kakukk">
@@ -87,7 +90,7 @@ page-class: landing
                     <h3>Megújuló energia</h3>
                     <p class="mx-4">
                         A létesítmény fosszilis energiahordozók közvetlen felhasználástól mentes. Épületszerkezete, fűtési- és használati melegvíz előállítási rendszere korszerű technológiákkal készült és üzemeltetése min. 25% megújuló energia felhasználásával történik.
-                        <a class="ms-2" href="#" target="_self">tovább</a>
+                        {% if site.interaktiv %}<a class="ms-2" href="#" target="_self">tovább</a>{% endif %}
                     </p>
                 </div>
                 <div class="col-4">
@@ -95,7 +98,7 @@ page-class: landing
                     <h3>Hőszivattyú</h3>
                     <p class="mx-4">
                         Az épületek fűtési és hűtési hőenergia ellátását és használati melegvíz-termelését központi levegő-víz hőszivattyú szolgálja ki. A központi hőszivattyú által ellátott hőközpont a főépületben található ahol ellátja az épületen belüli igényeket, és távvezetéken keresztük ellátja az apartmanokat is.
-                        <a class="ms-2" href="#" target="_self">tovább</a>
+                        {% if site.interaktiv %}<a class="ms-2" href="#" target="_self">tovább</a>{% endif %}
                     </p>
                 </div>
                 <div class="col-4">
@@ -103,7 +106,7 @@ page-class: landing
                     <h3>Határoló szerkezetek</h3>
                     <p class="mx-4">
                         Az épületek határoló szerkezetei a legoptimálisabb hőtároló képességének elérésének érdekében lettek meghatározva. Az apartmanok más-más szerkezettel lettek kivitelezve, bemutatva a különböző rendszerek alapszintű rétegfelépítési rendjét, amelyek szükségesek a közel nulla energiaigényre vonatkozó követelmények eléréséhez.
-                        <a class="ms-2" href="#" target="_self">tovább</a>
+                        {% if site.interaktiv %}<a class="ms-2" href="#" target="_self">tovább</a>{% endif %}
                     </p>
                 </div>
             </div>

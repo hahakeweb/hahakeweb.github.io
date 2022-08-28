@@ -4,8 +4,8 @@
   link: /projekt.html
 - name: Videók
   link: /videok.html
-- name: Interaktív
-  link: /interaktiv.html
+# - name: Interaktív
+  # link: /interaktiv.html
 - name: Virtuális szoba
   link: /virtualis.html
 - name: Kapcsolat
