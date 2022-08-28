@@ -25,12 +25,23 @@ page-class: virtualis-page
 </section>
 
 <script>
-    pannellum.viewer('panorama', {
-        "type": "equirectangular",
-        "compass": false,
-        "autoRotate": -2,
-        "hfov": 90, // zoom (100)
-        "panorama": "/assets/images/pano/foepulet-kulso.jpg",
-        "preview": "/assets/images/pano/foepulet-kulso-preview.jpg"
+const panoSettings = {
+    'type': 'equirectangular',
+    'compass': false,
+    'autoRotate': -2,
+    'hfov': 90, // zoom (100)
+};
+const panoImageList = [
+    {% for pan in site.data.pano %}{id: '{{pan.id}}', img: '{{pan.img}}' },
+    {% endfor %}
+];
+panoImageList.forEach(pan => {
+
+    pannellum.viewer( pan.id, {
+        ...panoSettings, ...{
+            panorama: '/assets/images/pano/' + pan.img + '.jpg',
+            preview: '/assets/images/pano/' + pan.img + '-preview.jpg'
+        }
     });
+});
 </script>

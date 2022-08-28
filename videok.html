@@ -36,13 +36,13 @@ page-class: videok-page
     </div>
     <div class="video-lista container mb-5">
         <div class="row row-cols-3">
-        {% for item in site.data.videok %}
+        {% for video in site.data.videok %}
             <div class="col my-4">
-                <h4 class="my-1">{{item.name}}</h4>
-                <a href="{{item.link}}" target="_blank">
-                    <img src="{{item.picture}}" alt="{{item.name}}" width="310" />
+                <h4 class="my-1">{{video.name}}</h4>
+                <a href="{{video.link}}" target="_blank">
+                    <img src="{{video.picture}}" alt="{{video.name}}" width="310" />
                 </a>
-                <!-- <iframe src="{{item.link}}" width="310" height="174" allow="autoplay" style="border:none;"></iframe> -->
+                {% comment %} <iframe src="{{video.link}}" width="310" height="174" allow="autoplay" style="border:none;"></iframe> {% endcomment %}
             </div>
         {% endfor %}
         </div>
