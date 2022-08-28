@@ -9,16 +9,15 @@ jekyll-seo-tag
 site.webmanifest file
     https://web.dev/add-manifest/
 
-aloldal-interaktiv
 aloldal-virtualis
-aloldal-kapcsolat
 responsive
 akadálymentes +html validálás
 favicon, apple touch icon
+aloldal-interaktiv
 vedeos in modal
 projekt/megvalosulasi folyamat kimaradt direkt
 
-scrollra usszanak a boxok
+scrollra usszanak a boxok / parallax
 
 
 fonts
