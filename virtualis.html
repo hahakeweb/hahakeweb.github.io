@@ -17,9 +17,11 @@ page-class: virtualis-page
 <section class="section-mintaprojekt">
     <div class="container">
         <div class="row justify-content-center mb-5">
+            {% for pan in site.data.hazak %}
             <div class="col-12 my-2">
-                <div id="panorama" style="height:40vw;"></div>
+                <div id="{{pan.id}}" style="height:40vw;"></div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </section>
@@ -29,18 +31,23 @@ const panoSettings = {
     'type': 'equirectangular',
     'compass': false,
     'autoRotate': -2,
-    'hfov': 90, // zoom (100)
+    'hfov': 100, // zoom (100)
 };
 const panoImageList = [
-    {% for pan in site.data.pano %}{id: '{{pan.id}}', img: '{{pan.img}}' },
+    {% for haz in site.data.hazak %}{
+        id: '{{haz.id}}',
+        img: '{{haz.img}}',
+        title: '{{haz.title}}'
+    },
     {% endfor %}
 ];
 panoImageList.forEach(pan => {
 
     pannellum.viewer( pan.id, {
         ...panoSettings, ...{
-            panorama: '/assets/images/pano/' + pan.img + '.jpg',
-            preview: '/assets/images/pano/' + pan.img + '-preview.jpg'
+            panorama: pan.img + '.jpg',
+            preview: pan.img + '-preview.jpg',
+            title: pan.title
         }
     });
 });

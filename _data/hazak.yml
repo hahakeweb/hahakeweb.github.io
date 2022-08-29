@@ -1,0 +1,54 @@
+- id: kulso1
+  title: ''
+  img: /assets/images/pano/kulso-1
+# - id: kulso2
+#   title: ''
+#   img: /assets/images/pano/kulso-2
+- id: hazNappali
+  title: 'Nappali'
+  img: /assets/images/pano/haz-nappali
+- id: hazFurdo
+  title: 'Fürdőszoba'
+  img: /assets/images/pano/haz-furdo
+- id: haz1szoba1
+  title: 'I. apartman, 1. szoba'
+  img: /assets/images/pano/haz-1-szoba-1
+- id: haz1szoba2
+  title: 'I. apartman, 2. szoba'
+  img: /assets/images/pano/haz-1-szoba-2
+# - id: haz2szoba1a
+#   title: 'I. apartman, 2. szoba'
+#   img: /assets/images/pano/haz-2-szoba-1a
+- id: haz2szoba1b
+  title: 'II. apartman, 1. szoba'
+  img: /assets/images/pano/haz-2-szoba-1b
+- id: haz2szoba2
+  title: 'II. apartman, 2. szoba'
+  img: /assets/images/pano/haz-2-szoba-2
+- id: haz3szoba1
+  title: 'III. apartman, 1. szoba'
+  img: /assets/images/pano/haz-3-szoba-1
+- id: haz3szoba2
+  title: 'III. apartman, 2. szoba'
+  img: /assets/images/pano/haz-3-szoba-2
+- id: haz4szoba1
+  title: 'IV. apartman, 1. szoba'
+  img: /assets/images/pano/haz-4-szoba-1
+- id: haz4szoba2
+  title: 'IV. apartman, 2. szoba'
+  img: /assets/images/pano/haz-4-szoba-2
+- id: haz5szoba1
+  title: 'V. apartman, 1. szoba'
+  img: /assets/images/pano/haz-5-szoba-1
+- id: haz5szoba2
+  title: 'V. apartman, 2. szoba'
+  img: /assets/images/pano/haz-5-szoba-2
+- id: belso1
+  title: ''
+  img: /assets/images/pano/belso-1
+- id: belso2
+  title: ''
+  img: /assets/images/pano/belso-2
+- id: belso3
+  title: ''
+  img: /assets/images/pano/belso-3
